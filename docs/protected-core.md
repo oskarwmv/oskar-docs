@@ -1,6 +1,6 @@
 # Open Source and Protected Core
 
-Oskar scripts are structured to keep adaptation work simple while protecting the files that should not be touched by most server owners.
+Crabo scripts are structured to keep adaptation work simple while protecting the files that should not be touched by most server owners.
 
 ## Open Files
 

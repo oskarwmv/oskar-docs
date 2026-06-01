@@ -1,6 +1,6 @@
-# Oskar Docs
+# Crabo Docs
 
-VitePress documentation hub for Oskar Devs FiveM scripts.
+VitePress documentation hub for Crabo Devs FiveM scripts.
 
 ## Local Development
 

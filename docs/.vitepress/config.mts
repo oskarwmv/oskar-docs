@@ -1,33 +1,33 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Oskar Documentation',
-  description: 'Documentation for Oskar Devs FiveM scripts.',
+  title: 'Crabo Documentation',
+  description: 'Documentation for Crabo Devs FiveM scripts.',
   base: '/oskar-docs/',
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
     logo: '/logo.svg',
-    siteTitle: 'Oskar Documentation',
+    siteTitle: 'Crabo Documentation',
     search: {
       provider: 'local'
     },
     nav: [
-      { text: 'Oskar Devs', link: '/' },
+      { text: 'Crabo Devs', link: '/' },
       { text: 'Resources', link: '/scripts/' },
       { text: 'Support', link: 'https://discord.gg/NcfpG9jDuq' }
     ],
     sidebar: [
       {
-        text: 'Oskar Devs Documents',
+        text: 'Crabo Devs Documents',
         items: [
-          { text: 'Oskar Documentation', link: '/' },
+          { text: 'Crabo Documentation', link: '/' },
           { text: 'What is FiveM Escrow?', link: '/fivem-escrow' },
           { text: 'Open Source and Protected Core', link: '/protected-core' }
         ]
       },
       {
-        text: 'OSKAR RESOURCES',
+        text: 'CRABO RESOURCES',
         collapsed: false,
         items: [
           {
@@ -43,8 +43,7 @@ export default defineConfig({
               { text: 'Integrations and API', link: '/scripts/oskar-battlepass/integrations-and-api' },
               { text: 'FAQ and Troubleshooting', link: '/scripts/oskar-battlepass/faq-and-troubleshooting' }
             ]
-          },
-          { text: 'oskar_uber', link: '/scripts/oskar-uber/' }
+          }
         ]
       },
       {
@@ -62,20 +61,13 @@ export default defineConfig({
       prev: 'Previous',
       next: 'Next'
     },
-    editLink: {
-      pattern: 'https://github.com/oskarwmv/oskar-docs/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
-    },
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/oskarwmv/oskar-docs' }
-    ],
     footer: {
-      message: 'Built for Oskar Devs FiveM scripts.',
-      copyright: 'Copyright © 2026 Oskar Devs'
+      message: 'Built for Crabo Devs FiveM scripts.',
+      copyright: 'Copyright (c) 2026 Crabo Devs'
     }
   },
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }],
-    ['meta', { name: 'theme-color', content: '#0f172a' }]
+    ['meta', { name: 'theme-color', content: '#000000' }]
   ]
 })

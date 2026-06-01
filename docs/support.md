@@ -1,6 +1,6 @@
 # Discord Server
 
-For product support, updates, and installation help, join the Oskar Devs Discord server:
+For product support, updates, and installation help, join the Crabo Devs Discord server:
 
 [discord.gg/NcfpG9jDuq](https://discord.gg/NcfpG9jDuq)
 

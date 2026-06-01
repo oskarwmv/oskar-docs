@@ -7,7 +7,7 @@ This script is prepared for vRP, ESX, QBCore, and QBox based servers. The adapta
 :::
 
 ```lua
-author 'Oskar.wmv'
+author 'Crabo'
 lua54 'yes'
 ui_page 'web/build/index.html'
 ```
@@ -50,28 +50,28 @@ The active catalog is designed for legal rewards only:
       <strong>Setup and Items</strong>
       <small>Dependencies, server.cfg order, database behavior, required items, and install checklist.</small>
     </span>
-    <span class="resource-arrow">›</span>
+    <span class="resource-arrow">></span>
   </a>
   <a class="resource-row" href="/oskar-docs/scripts/oskar-battlepass/configuration">
     <span>
       <strong>Configuration</strong>
       <small>Framework selector, UI options, premium group, XP settings, profile images, store, boxes, and catalog settings.</small>
     </span>
-    <span class="resource-arrow">›</span>
+    <span class="resource-arrow">></span>
   </a>
   <a class="resource-row" href="/oskar-docs/scripts/oskar-battlepass/framework-adapters">
     <span>
       <strong>Framework Adapters</strong>
       <small>How vRP, ESX, QBCore, and QBox are supported through open adapter files.</small>
     </span>
-    <span class="resource-arrow">›</span>
+    <span class="resource-arrow">></span>
   </a>
   <a class="resource-row" href="/oskar-docs/scripts/oskar-battlepass/integrations-and-api">
     <span>
       <strong>Integrations and API</strong>
       <small>Public events, task XP triggers, callbacks, profile image hooks, and open BP/BPClient APIs.</small>
     </span>
-    <span class="resource-arrow">›</span>
+    <span class="resource-arrow">></span>
   </a>
 </div>
 

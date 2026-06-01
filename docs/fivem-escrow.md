@@ -10,9 +10,9 @@ Protected files usually contain critical logic, licensing, anti-tamper checks, o
 
 Open files usually contain configuration, framework adapters, functions, language files, public events, or other integration points.
 
-## How Oskar Scripts Use It
+## How Crabo Scripts Use It
 
-Oskar scripts are designed so the critical core can stay protected while the adaptation layer remains open.
+Crabo scripts are designed so the critical core can stay protected while the adaptation layer remains open.
 
 For example, `oskar_battlepass` keeps framework-specific logic in open adapter files, while the main protected core can keep the sensitive logic closed.
 

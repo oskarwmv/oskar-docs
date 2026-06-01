@@ -1,13 +1,25 @@
-# Scripts
+# Oskar Resources
 
-This is the central documentation index for Oskar Devs FiveM scripts.
+You can quickly access the documentation pages for the scripts available in our store here.
 
-## Available Documentation
+## Available Scripts
 
-| Script | Status | Documentation |
-| --- | --- | --- |
-| `oskar_battlepass` | Ready | [Open docs](./oskar-battlepass/) |
-| `oskar_uber` | Starter page | [Open docs](./oskar-uber/) |
+<div class="resource-list">
+  <a class="resource-row" href="/oskar-docs/scripts/oskar-battlepass/">
+    <span>
+      <strong>oskar_battlepass</strong>
+      <small>Progression, premium rewards, missions, diamond store, loot boxes, and framework adapters.</small>
+    </span>
+    <span class="resource-arrow">›</span>
+  </a>
+  <a class="resource-row" href="/oskar-docs/scripts/oskar-uber/">
+    <span>
+      <strong>oskar_uber</strong>
+      <small>Uber-style jobs, passenger pickup, destination routing, and bot ride profiles.</small>
+    </span>
+    <span class="resource-arrow">›</span>
+  </a>
+</div>
 
 ## Adding Another Script
 
@@ -18,4 +30,4 @@ docs/scripts/my-script/
   index.md
 ```
 
-Then add it to `docs/.vitepress/config.mts` in the navigation or sidebar.
+Then add it to `docs/.vitepress/config.mts` under `OSKAR RESOURCES`.

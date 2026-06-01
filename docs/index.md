@@ -1,26 +1,43 @@
----
-layout: home
+# Oskar Documentation
 
-hero:
-  name: Oskar Docs
-  text: FiveM script documentation hub
-  tagline: Installation guides, configuration references, framework adapters, events, exports, and support notes for Oskar Devs resources.
-  image:
-    src: /logo.svg
-    alt: Oskar Docs
-  actions:
-    - theme: brand
-      text: Browse Scripts
-      link: /scripts/
-    - theme: alt
-      text: Battlepass Docs
-      link: /scripts/oskar-battlepass/
+Oskar Devs resources document.
 
-features:
-  - title: Multi-script ready
-    details: Add each script as its own section while keeping one clean documentation website.
-  - title: Framework-focused
-    details: Document QBCore, ESX, QBox, vRP, open adapters, and protected core boundaries in one place.
-  - title: Easy to publish
-    details: Built for GitHub Pages now, and still portable to GitBook or another documentation platform later.
----
+## Overview
+
+This documentation contains setup guides, configuration references, framework notes, and support information for Oskar Devs FiveM scripts.
+
+We've put together the main pages so server owners can install, configure, adapt, and maintain each product quickly.
+
+## Our Resources
+
+You can quickly access the documentation pages for the scripts available in our store here.
+
+<div class="resource-grid">
+  <a class="resource-card" href="/oskar-docs/scripts/oskar-battlepass/">
+    <span class="resource-title">oskar_battlepass</span>
+    <span class="resource-desc">Battle Pass system with rewards, missions, store, boxes, premium access, and framework adapters.</span>
+  </a>
+  <a class="resource-card" href="/oskar-docs/scripts/oskar-uber/">
+    <span class="resource-title">oskar_uber</span>
+    <span class="resource-desc">Uber-style ride system with passengers, drivers, bot requests, and safe route points.</span>
+  </a>
+</div>
+
+## Documentation Categories
+
+<div class="resource-grid compact">
+  <a class="resource-card" href="/oskar-docs/fivem-escrow">
+    <span class="resource-title">FiveM Escrow</span>
+    <span class="resource-desc">Understand protected files, open files, and what server owners can safely edit.</span>
+  </a>
+  <a class="resource-card" href="/oskar-docs/protected-core">
+    <span class="resource-title">Open Source and Protected Core</span>
+    <span class="resource-desc">How Oskar scripts separate editable adapters from the critical protected core.</span>
+  </a>
+</div>
+
+## Oskar Discord Server
+
+If you have questions about our products or need support, join our server:
+
+[discord.gg/NcfpG9jDuq](https://discord.gg/NcfpG9jDuq)

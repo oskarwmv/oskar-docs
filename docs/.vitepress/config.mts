@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Oskar Docs',
   description: 'Documentation hub for Oskar FiveM scripts.',
+  base: '/oskar-docs/',
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {

@@ -30,7 +30,20 @@ export default defineConfig({
         text: 'OSKAR RESOURCES',
         collapsed: false,
         items: [
-          { text: 'oskar_battlepass', link: '/scripts/oskar-battlepass/' },
+          {
+            text: 'oskar_battlepass',
+            collapsed: false,
+            items: [
+              { text: 'Overview', link: '/scripts/oskar-battlepass/' },
+              { text: 'Setup and Items', link: '/scripts/oskar-battlepass/setup-and-items' },
+              { text: 'Configuration', link: '/scripts/oskar-battlepass/configuration' },
+              { text: 'Framework Adapters', link: '/scripts/oskar-battlepass/framework-adapters' },
+              { text: 'Rewards and Missions', link: '/scripts/oskar-battlepass/rewards-and-missions' },
+              { text: 'Store and Boxes', link: '/scripts/oskar-battlepass/store-and-boxes' },
+              { text: 'Integrations and API', link: '/scripts/oskar-battlepass/integrations-and-api' },
+              { text: 'FAQ and Troubleshooting', link: '/scripts/oskar-battlepass/faq-and-troubleshooting' }
+            ]
+          },
           { text: 'oskar_uber', link: '/scripts/oskar-uber/' }
         ]
       },

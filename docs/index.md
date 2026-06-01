@@ -1,0 +1,26 @@
+---
+layout: home
+
+hero:
+  name: Oskar Docs
+  text: FiveM script documentation hub
+  tagline: Installation guides, configuration references, framework adapters, events, exports, and support notes for Oskar Devs resources.
+  image:
+    src: /logo.svg
+    alt: Oskar Docs
+  actions:
+    - theme: brand
+      text: Browse Scripts
+      link: /scripts/
+    - theme: alt
+      text: Battlepass Docs
+      link: /scripts/oskar-battlepass/
+
+features:
+  - title: Multi-script ready
+    details: Add each script as its own section while keeping one clean documentation website.
+  - title: Framework-focused
+    details: Document QBCore, ESX, QBox, vRP, open adapters, and protected core boundaries in one place.
+  - title: Easy to publish
+    details: Built for GitHub Pages now, and still portable to GitBook or another documentation platform later.
+---
